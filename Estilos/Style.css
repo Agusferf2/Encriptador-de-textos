@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bruno+Ace+SC&family=Inter:wght@100..900&family=Silkscreen:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --third-color: #D2E9E9;
+    --fourth-color: #C4DFDF;
+}
+body{
+    background-color: #E3F4F4;
+    font-size: 24px;
+    height: 96vh;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    font-family: "Bruno Ace SC", sans-serif;
+    height: 10%;
+}
+.containerTextos{
+    display: flex;
+    margin-top: 25px;
+    height: 96vh;
+}
+.ingresarTexto{
+    font-size: 0.5em;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+}
+#inputTexto{
+    resize: none;
+    border-radius: 15px;
+    padding: 10px;
+    font-family:"Inter", sans-serif;
+    font-size: 1.4em;
+    background-color: transparent;
+    margin: 20px 50px 0px 50px;
+    height: 70%;
+}
+.botones{
+    margin: 10px 60px;
+    height: 20%;
+    font-size: 1.3em;
+}
+#advertencia{
+    display: flex;
+}
+#ExclamationSign{
+    height: 15px;
+    margin-right: 5px;
+}
+.btn{
+    margin: 10px 20px;
+    font-size: 1.3em;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: "Bruno Ace SC", sans-serif;
+}
+#Encriptar{
+    background-color: var(--third-color);
+    width: 40%;
+}
+#Encriptar:hover{
+    background-color: var(--fourth-color);
+}
+#Desencriptar{
+    width: 40%;
+    background-color: transparent;
+}
+#Desencriptar:hover{
+    background-color: var(--fourth-color);
+}
+.mostrarTexto{
+    width: 30%;
+    text-align: center;
+    background-color:var(--third-color);
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px 0px;
+    margin: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.6em;
+    font-family:"Inter", sans-serif;
+}
+#LupaImg{
+    width: 200px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+h2{
+    margin-bottom: 7px;
+}
