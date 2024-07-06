@@ -24,7 +24,7 @@ h1{
 }
 .containerTextos{
     display: flex;
-    margin-top: 1.5625em;
+    margin-top: 1.5em;
     height: 93vh;
 }
 .ingresarTexto{
@@ -78,20 +78,14 @@ h1{
 #Desencriptar:hover{
     background-color: var(--fourth-color);
 }
-.mostrarTexto{
+#mostrarTexto{
     width: 30%;
-    text-align: center;
     background-color:var(--third-color);
     border: 0.0625em solid black;
     box-shadow: 0.0625em 0.0625em 0.3125em 0em;
     margin: 1.25em 1.5em 3em 0em;
     border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 0.6em;
-    font-family:"Inter", sans-serif;
+    height: 90%;
 }
 #LupaImg{
     width: 12.5em;
@@ -103,6 +97,53 @@ h2{
 }
 .Notext{
     margin:3px 15px;
+}
+#noHayTexto{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.6em;
+    font-family:"Inter", sans-serif;
+    border-radius: 15px;
+}
+#mostrarResultado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#desOEncript{
+    font-family: "Bruno Ace SC", sans-serif;
+    font-size: 1.3em;
+    margin: 10px;
+    text-align: center;
+    height: 12%;
+}
+#resultado{
+    width: 90%;
+    height: 80%;
+    resize: none;
+    border-radius: 15px;
+    font-family:"Inter", sans-serif;
+    font-size: 0.8em;
+    background-color: transparent;
+    padding: 10px;
+}
+#copyBTN{
+    height: 2.5rem;
+    margin: 15px;
+    background-color: #bedfdf;
+    padding: 0px 15px;
+    font-size: 0.7em;
+    border-radius: 15px;
+    font-family: "Bruno Ace SC", sans-serif;
+}
+#copyBTN:hover{
+    background-color:#D2E9E9;
 }
 }
 @media (max-width: 1200px){

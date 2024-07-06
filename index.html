@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador</title>
-    <link rel="stylesheet" href="./Estilos/Style.css">
+    <link rel="stylesheet" href="assets/Style.css">
 </head>
 <body>
     <main>
@@ -18,13 +18,20 @@
                     <button class="btn" id="Desencriptar">Desencriptar</button>
                 </div>
             </div>
-            <div class="mostrarTexto">
-                <img src="./imagenes/buscandoalgo.png" alt="No se encontro texto" id="LupaImg">
-                <h2 class="Notext">Ningun mensaje fue encontrado</h2>
-                <p class="Notext">Ingresa el texto que desees encriptar o desencriptar</p>
+            <div id="mostrarTexto">
+                <div id ="noHayTexto">
+                    <img src="./imagenes/buscandoalgo.png" alt="No se encontro texto" id="LupaImg">
+                    <h2 class="Notext" id="reviseTexto">Ningun mensaje fue encontrado</h2>
+                    <p class="Notext" id="reviseMayus">Ingresa el texto que desees encriptar o desencriptar</p>
+                </div>      
+                <div id="mostrarResultado">
+                    <h2 id="desOEncript"></h2>
+                    <textarea name="resultado" id="resultado" readonly></textarea>
+                    <button id="copyBTN">Copiar</button>
+                </div>
             </div>
         </div>
 </main>
+<script src="assets/js/script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
